@@ -45,7 +45,7 @@ const database = {
 }
 
 app.get('/', (req, res) => {
-    res.send('success!');
+    res.send('Deployment worked!');
 });
 
 app.post('/signin', (req, res) => {handleSignin(req, res, db, bcrypt)})
