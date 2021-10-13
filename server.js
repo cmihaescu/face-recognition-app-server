@@ -12,7 +12,7 @@ const { handleApiCall } = require('./controllers/image.js')
 const db = knex({
     client: 'pg',
     connection: {
-      host : '127.0.0.1',
+      host : 'postgresql-metric-13743',
       user : 'postgres',
       password : 'qwerty123',
       database : 'face_recognition'
